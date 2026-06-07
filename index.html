@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>A világ széle</title>
+</head>
+<body>
+<header>
+    <h1>A világ széle</h1>
+    <p>Meddig tudsz talpon maradni a senki földjén?</p>
+</header>
+
+<nav>
+    <a href="#bemutato">Bemutató</a>
+    <a href="#jatekmenet">Játékmenet</a>
+    <a href="#epuletek">Épületek</a>
+    <a href="#koltsegek">Költségek</a>
+    <a href="#gyozelem">Győzelem</a>
+</nav>
+<section id="bemutato">
+    <h2>A játék bemutatása</h2>
+
+    <p>Az A világ széle egy stratégiai társasjáték, ahol a játékosok egy újonnan felfedezett bolygót próbálnak kolonizálni. A világ azonban veszélyes és kiszámíthatatlan, ezért a játékosoknak nyersanyagokat kell termelniük és túl kell élniük a folyamatos természeti katasztrófákat. A játék célja, hogy a bolygó sikeresen benépesüljön, ezért a játékosoknak kikötőket kell építeniük, hogy újabb emberek érkezhessenek a világra.</p>
+    <br>
+    <p>A szabályok egyszerűek, a túlélés viszont nehéz.</p>
+    <img src="content.png">
+</section>
+<section id="jatekmenet">
+    <h2>Játékmenet</h2>
+
+    <div class="card-container">
+
+        <div class="card">
+            <h3>Növekvő hozam</h3>
+            <p>Minden épület ad valamilyen erőforrást. Minden körben eggyel többet termel.</p>
+        </div>
+
+        <div class="card">
+            <h3>Katasztrófák</h3>
+            <p>Minden körben kötelező húzni egy katasztrófa kártyát.</p>
+        </div>
+
+        <div class="card">
+            <h3>Raktár</h3>
+            <p>A raktárban tárolt erőforrásokat nem érintik a katasztrófák.</p>
+        </div>
+
+        <div class="card" class="kozep">
+            <h3>Játékosok</h3>
+            <p>A játékban hat különböző játékosszín használható: zöld, kék, fehér, fekete, piros és drapp.</p>
+        </div>
+    </div>
+</section>
+<section id="epuletek">
+    <h2>Épületek</h2>
+
+    <div class="card-container">
+
+        <div class="card">
+            <h3>Telep</h3>
+            <h4 class="text-primary text-center">Kék színű épület</h4>
+            <p>+ Ember</p>
+        </div>
+
+        <div class="card">
+            <h3>Farm</h3>
+            <h4 class="text-success text-center">Zöld színű épület</h4>
+            <p>+ Élelem</p>
+        </div>
+
+        <div class="card">
+            <h3>Bánya</h3>
+            <h4 style="color:yellow" class="text-center">Sárga színű épület</h4>
+            <p>+ Szén</p>
+        </div>
+
+        <div class="card">
+            <h3>Olajbánya</h3>
+            <h4 style="color:orange" class="text-center">Narancssárga színű épület</h4>
+            <p>+ Olaj</p>
+        </div>
+
+        <div class="card">
+            <h3>Raktár</h3>
+            <h4 class="text-danger text-center">Piros színű épület</h4>
+            <p>Nyersanyagoat lehet tárolni.</p>
+        </div>
+
+        <div class="card">
+            <h3>Kikötő</h3>
+            <h4 style="color: pink;" class="text-center">Rózsaszín színű épület</h4>
+            <p>A menekülés kulcsa.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="koltsegek">
+    <h2>Építési költségek</h2>
+
+    <ul>
+        <li>Telep: Ingyenes</li>
+        <li>Farm: 3 ember</li>
+        <li>Bánya: 5 ember + 3 élelem</li>
+        <li>Raktár: 3 ember + 2 szén</li>
+        <li>Olajbánya: 5 ember + 2 élelem + 3 szén</li>
+        <li>Kikötő: 3 olaj + 3 élelem + 2 szén + 3 ember</li>
+    </ul>
+</section>
+
+<section id="gyozelem">
+    <h2>Győzelmi feltétel</h2>
+
+    <p>
+        A játék akkor ér véget, amikor minden ember számára épült egy kikötő.
+    </p>
+    <p>
+        Játéktábla mérete: 24 × 20 cm.
+    </p>
+</section>
+</body>
+</html>
